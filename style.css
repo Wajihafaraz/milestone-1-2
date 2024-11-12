@@ -18,13 +18,13 @@ body {
 
 /* Left Section Styling */
 .left-section {
-    background-color: darkslategrey;
+    background-color:maroon;
     color: white;
     padding: 20px;
     width: 100%;
     text-align: center;
-    border-right: none;
-    border-bottom: 5px solid gray;
+    border-right: 5px solid palevioletred; 
+   
    
 }
 
@@ -33,7 +33,7 @@ body {
     height: 120px;
     margin-top: 10%;
     border-radius: 50%;
-    border: 5px solid dimgray;
+    border: 5px solid mistyrose;
     margin-bottom: 20px;
 }
 
@@ -50,7 +50,7 @@ h3 {
     margin: 20px 0px 10px;
     color: black;
     border-radius: 10px;
-    box-shadow: 0 0 15px gray;
+    box-shadow: 0 0 10px pink;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -69,6 +69,7 @@ ul li {
 .right-section {
     padding: 20px;
     width: 100%;
+
 }
 
 /* Button Styling */
@@ -82,7 +83,7 @@ button {
 }
 
 button:hover {
-    background-color: darkslategray;
+    background-color: maroon;
 }
 
 /* Responsive-Styles */
@@ -94,7 +95,7 @@ button:hover {
 
     .left-section {
         width: 25%;
-        border-right: 5px solid gray;
+        border-right: 5px solid pink;
         border-bottom: none;
         
     }
